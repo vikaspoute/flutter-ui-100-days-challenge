@@ -1,16 +1,62 @@
-# day_1_ui
+# Flutter Project README
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+This README provides an overview of the Flutter project and includes instructions for setup and usage.
 
-This project is a starting point for a Flutter application.
+## Project Overview
 
-A few resources to get you started if this is your first Flutter project:
+This Flutter project is designed to demonstrate various features and functionalities of the Flutter framework.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Password Validation Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Length**: Password must be at least 8 characters long.
+2. **Contain Number**: Password must contain at least 1 numeric digit.
+
+## Usage
+
+To run the Flutter project, follow these steps:
+
+1. **Connect Device or Start Emulator**:
+   - Connect a physical device to your computer via USB or start an emulator.
+
+2. **Run the Project**:
+   - In the terminal or command prompt, navigate to the project directory.
+   - Run the following command to build and run the Flutter project:
+     ```
+     flutter run
+     ```
+
+3. **View the App**:
+   - The Flutter app should now launch on your connected device or emulator. You can interact with the app to explore its features.
+
+## Project Structure
+
+The project directory structure is as follows:
+
+flutter_project/
+│
+├── android/
+│ ├── app/
+│ └── build.gradle
+│
+├── ios/
+│ ├── Runner/
+│ └── ...
+│
+├── lib/
+│ ├── main.dart
+│ └── ...
+│
+├── test/
+│ └── ...
+│
+├── pubspec.yaml
+└── README.md
+
+
+- **android/**: Contains the Android-specific configuration files.
+- **ios/**: Contains the iOS-specific configuration files.
+- **lib/**: Contains the Dart code for the Flutter app.
+- **test/**: Contains unit and widget tests for the Flutter app.
+- **pubspec.yaml**: Defines the project dependencies and metadata.
