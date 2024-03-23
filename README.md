@@ -1,4 +1,4 @@
-# FlutterUI-100DaysOfChallenge
+# FlutterUI-{100+}DaysOfChallenge
 
 Welcome to the FlutterUI-100DaysOfChallenge repository!
 
